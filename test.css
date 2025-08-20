@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadfea;
+    height: 60px;
+}
+
+header div {
+    background-color: #dadfea;
+}
+
+.main {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.left {
+    background-color: blue;
+    width: 30%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px 10px 0px;
+}
+
+.right {
+    background-color: red;
+    flex-direction: column;
+    width: 70%;
+    display: flex;
+}
